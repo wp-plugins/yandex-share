@@ -24,8 +24,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Screenshots ==
 
-1. Настройка плагина Яндекс Поделиться
-2. Счётчики плагина в теме Expound
+1. Настройка плагина Яндекс Поделиться.
+2. Счётчики плагина в теме Expound.
 
 == Changelog ==
 

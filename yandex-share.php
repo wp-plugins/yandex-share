@@ -3,7 +3,7 @@
  * Plugin Name: Yandex Share
  * Description: Add a Yandex Share block to your WordPress posts and pages.
  * Author: Konstantin Kovshenin
- * Version: 0.7
+ * Version: 0.7.1
  * License: GPLv2
  * Text Domain: yandex-share
  * Domain Path: /languages

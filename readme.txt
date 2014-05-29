@@ -2,8 +2,8 @@
 Contributors: kovshenin
 Tags: share, social, yandex, twitter, facebook, vkontakte
 Requires at least: 3.0
-Tested up to: 3.7.1
-Stable tag: 0.7.1
+Tested up to: 3.9.1
+Stable tag: 0.7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -28,6 +28,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 2. Счётчики плагина в теме Expound.
 
 == Changelog ==
+
+= 0.7.2 =
+* Improve script handling/blocking
 
 = 0.7 =
 * First release

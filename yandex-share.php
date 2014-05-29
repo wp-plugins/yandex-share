@@ -56,7 +56,7 @@ class Yandex_Share_Plugin {
 	}
 
 	function enqueue_scripts() {
-		wp_enqueue_script( 'yandex-share', '//yandex.st/share/share.js' );
+		wp_register_script( 'yandex-share', '//yandex.st/share/share.js', array(), false, true );
 	}
 
 	function the_content( $content ) {
@@ -72,6 +72,12 @@ class Yandex_Share_Plugin {
 			esc_attr( get_the_title() ),
 			esc_url( get_permalink() )
 		);
+
+		static $enqueued = false;
+		if ( ! $enqueued ) {
+			wp_enqueue_script( 'yandex-share' );
+			$enqueued = true;
+		}
 
 		return $content . "\n\n" . $share;
 	}
